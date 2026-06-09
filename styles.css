@@ -14,9 +14,13 @@ header {
 }
 
 .profile-pic {
-    width: 150px; /* Ajusta el tamaño de la imagen personal */
-    border-radius: 50%; /* Imagen circular */
-    margin: 20px 0;
+    max-width: 150px; /* Tamaño máximo de la imagen */
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Hace la imagen circular (opcional) */
+    margin: 20px 0; /* Espaciado alrededor de la imagen */
+}
+
 }
 
 .social-buttons {
