@@ -15,7 +15,7 @@ header {
 
 .profile-pic {
     max-width: 150px; /* Tamaño máximo de la imagen */
-    width: 100%; /* Se ajusta al ancho del contenedor */
+    width: 25%; /* Se ajusta al ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 50%; /* Hace la imagen circular (opcional) */
     margin: 20px 0; /* Espaciado alrededor de la imagen */
