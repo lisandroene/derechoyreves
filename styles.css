@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('ubaderecho.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+}
+
+.profile-pic {
+    width: 150px; /* Ajusta el tamaño de la imagen personal */
+    border-radius: 50%; /* Imagen circular */
+    margin: 20px 0;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    color: #000;
+}
+
+h2 {
+    color: #007BFF; /* Color de los encabezados */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
