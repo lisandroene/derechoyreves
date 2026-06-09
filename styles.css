@@ -1,15 +1,15 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Merriweather', serif; /* Fuente tipo periódico */
     margin: 0;
     padding: 0;
-    background: #f8f0f0; /* Color de fondo suave (un bordó claro) */
-    color: #4b0000; /* Color de texto en un bordó oscuro */
+    background: #f0f0f0; /* Color de fondo suave */
+    color: #333; /* Color de texto oscuro y legible */
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #d9b3b3; /* Fondo bordó claro para el header */
+    background-color: #ffffff; /* Fondo blanco para el header */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 10px; /* Bordes redondeados */
     margin: 20px auto; /* Centramos el header */
@@ -25,13 +25,24 @@ header {
 }
 
 h1 {
-    font-size: 24px; /* Tamaño del título */
+    font-size: 26px; /* Tamaño del título */
     margin: 10px 0; /* Margen superior e inferior */
+}
+
+h2 {
+    font-size: 22px; /* Tamaño del subtítulo */
+    color: #800000; /* Color bordó oscuro para los subtítulos */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+h3 {
+    font-size: 18px; /* Tamaño del subtítulo de tercer nivel */
+    color: #600000; /* Un tono más claro de bordó */
 }
 
 p {
     font-size: 16px; /* Tamaño del texto */
-    line-height: 1.5; /* Interlineado */
+    line-height: 1.6; /* Interlineado */
 }
 
 .social-buttons {
@@ -55,7 +66,7 @@ p {
 
 main {
     padding: 20px;
-    background-color: #f2d7d7; /* Fondo bordó claro para el main */
+    background-color: #ffffff; /* Fondo blanco para el main */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     border-radius: 10px; /* Bordes redondeados */
     margin: 20px auto; /* Centramos el main */
@@ -66,16 +77,10 @@ section {
     margin-bottom: 20px; /* Espacio entre secciones */
 }
 
-h2 {
-    font-size: 20px; /* Tamaño del subtítulo */
-    color: #800000; /* Color bordó oscuro para los subtítulos */
-    margin-bottom: 10px; /* Margen inferior */
-}
-
 footer {
     text-align: center;
     padding: 15px 0;
-    background-color: #4b0000; /* Fondo bordó muy oscuro para el footer */
+    background-color: #800000; /* Fondo bordó oscuro para el footer */
     color: #ffffff; /* Color del texto en el footer */
     border-radius: 0 0 10px 10px; /* Bordes redondeados en la parte inferior */
     margin-top: 20px; /* Margen superior */
@@ -89,5 +94,14 @@ ul {
 
 li {
     padding: 5px 0; /* Espacio entre elementos de lista */
-    color: #4b0000; /* Color bordó oscuro para los elementos de la lista */
+    color: #333; /* Color de texto para los elementos de la lista */
+    line-height: 1.5; /* Interlineado para las listas */
+}
+
+/* Fondo con trama sutil */
+body {
+    background: #f0f0f0; /* Color de fondo suave */
+    background-image: linear-gradient(white, white), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="%23E0E0E0" d="M0 0h5v5H0zM5 5h5v5H5z"/></svg>');
+    background-size: 100% 100%, 20px 20px; /* Tamaño de la trama */
+    background-position: 0 0, 0 0; /* Posición de la trama */
 }
