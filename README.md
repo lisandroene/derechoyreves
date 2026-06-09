@@ -1,2 +1,2 @@
-# Del Derecho... y del reves
-Este espacio es para compartir intereses académicos y avances de mis investigaciones
+# Del Derecho... y del revés
+Un espacio para compartir intereses académicos y (algún que otro) avance en mis investigaciones
